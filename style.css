@@ -9,8 +9,8 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #27262a;    /* achtergrondkleur lichtgrijs */
+  color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -22,12 +22,15 @@ body * {                          /* geldt voor alles in body */
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  width: 1500px;                   /* vaste breedte van 700 pixels */
+  margin: 10px auto; 
+  border: dashed red 5px; 
+  border-radius: 75px;            /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
+  
 }
 
 main {                       
@@ -82,28 +85,43 @@ a:hover {
 /* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin-left: 100px;
+    margin-bottom: 20px;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #ffffff;
     overflow: hidden;
+    border: solid red;
+    border-radius: 40px;
+    width: 200px;
 }
 
 nav ul li {
-    float: left;
+    float: center;
 }
 
 nav li a {
-    display: block;
-    color: white;
+    display: block ;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #ff0000;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(255, 0, 0);
+}
+
+.bnr {
+  width: 700px;
+  border: solid red;
+  margin: auto;
+  float: right;
+}
+
+.banna {
+  float: left;
 }
