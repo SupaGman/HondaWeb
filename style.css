@@ -86,13 +86,15 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 20px;
     padding: 0;
     background-color: #ffffff;
     overflow: hidden;
     border: solid red;
     border-radius: 40px;
-    width: 200px;
+    width: 380px;
+    height: 280px;
 }
 
 nav ul li {
@@ -104,11 +106,12 @@ nav li a {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    
 }
 
 nav li a:hover {
     background-color: #ff0000;
+    text-shadow: 1px 1px white;
 }
 
 nav li a.active {
@@ -116,10 +119,12 @@ nav li a.active {
 }
 
 .bnr {
-  width: 700px;
+  width: 890px;
+  height: 300px;
   border: solid red;
   margin: auto;
   float: right;
+  margin-right: 10px;
 }
 
 .banna {
