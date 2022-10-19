@@ -117,11 +117,20 @@ nav li a {
 nav li a:hover {
     background-color: #ff0000;
     text-shadow: 1px 1px white;
-    animation: mymove 5s forwards;
-    animation-duration: 5s;
-    animation-direction: normal;
-    animation-timing-function: ease-out;
+    position: relative;
+ /*animation: mymove 5s infinite;
+animation-direction: normal;
+animation-timing-function: ease-out;
+animation-delay: 0s;
+animation-duration: 5s;
+animation-name: mymove;
+*/
     
+
+}
+@keyframes mymove {
+  rom {left: 0px;}
+  to {left: 10px;}
 }
 
 nav li a.active {
