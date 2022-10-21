@@ -10,7 +10,7 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: #27262a;    /* achtergrondkleur lichtgrijs */
-  color: white; 
+  color: rgb(231, 227, 227); 
   background-image: url("afbeeldingen/generations.jpeg"); 
   background-repeat: no-repeat;  
   background-size: cover;   
@@ -97,8 +97,9 @@ nav ul {
     background-color: #ffffff;
     overflow: hidden;
     border: solid red;
-    border-bottom-left-radius: 40px;
-    border-top-left-radius: 40px;
+    /*border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;*/
+    border-radius: 40px;
     width: 380px;
     height: 280px;
 }
@@ -145,8 +146,9 @@ nav li a.active {
   margin: auto;
   float: right;
   margin-right: 10px;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
+  /*border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;*/
+  border-radius: 40px;
 }
 
 .banna {
