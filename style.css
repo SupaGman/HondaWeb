@@ -182,7 +182,7 @@ nav li a.active {
   
 .div1 {
   width: 700px;
-  border: solid yellow 5px;
+  /*border: solid yellow 5px;*/
   float: left;
   height: auto;
 }
