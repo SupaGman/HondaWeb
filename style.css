@@ -1,9 +1,9 @@
 /* Instellingen om fouten te helpen vinden, uncomment om aan te zetten */
 
-* {                                          /* geldt voor alles */
+/* {                                          /* geldt voor alles */
     /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
     /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
-}
+
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
@@ -96,13 +96,14 @@ nav ul {
     margin-bottom: 20px;
     padding: 0;
     background-color: #ffffff;
+    background-image: url(afbeeldingen/600rrul.png);
     overflow: hidden;
     border: solid red;
     /*border-bottom-left-radius: 40px;
     border-top-left-radius: 40px;*/
     border-radius: 40px;
     width: 380px;
-    height: 280px;
+    height: auto;
 }
 
 nav ul li {
@@ -111,7 +112,7 @@ nav ul li {
 
 nav li a {
     display: block ;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     
@@ -167,28 +168,34 @@ nav li a.active {
 }
 .floatrechts {
   float: right;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .floatlinks {
   float: left;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
   
 .div1 {
   width: 700px;
   border: solid yellow 5px;
   float: left;
+  height: auto;
 }
 
 .div2 {
   width: 700px;
-  border: solid green 5px;
+  /*border: solid green 5px;*/
   float: right;
 }
-  .text2 {
+.text2 {
     float: right;
 }
 
+.basicborder {
+  border: solid red;
+}
