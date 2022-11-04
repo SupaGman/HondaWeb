@@ -132,10 +132,10 @@ animation-name: mymove;
     
 
 }
-@keyframes mymove {
+/*@keyframes mymove {
   rom {left: 0px;}
   to {left: 10px;}
-}
+}*/
 
 nav li a.active {
     background-color: rgb(255, 0, 0);
