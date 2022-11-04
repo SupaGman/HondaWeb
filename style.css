@@ -197,5 +197,12 @@ nav li a.active {
 }
 
 .basicborder {
-  border: solid red;
+  border: solid red 2.5px;
+}
+
+.civicstockeg6 {
+  width: 250px;
+  margin: auto;
+  margin-top: 5px;
+  margin-right: 5px;
 }
