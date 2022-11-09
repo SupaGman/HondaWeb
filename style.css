@@ -9,9 +9,9 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #b53c3c;    /* achtergrondkleur lichtgrijs */
+  background-color: #ca2d2d;    /* achtergrondkleur lichtgrijs */
   color: rgb(231, 227, 227); 
-  background-image: url("afbeeldingen/hondawp.jpeg"); 
+  background-image: url("afbeeldingen/hondawp3.jpg"); 
   background-repeat: no-repeat;  
   background-size: cover;   
   background-position: relative; 
@@ -96,7 +96,8 @@ nav ul {
     margin-bottom: 20px;
     padding: 0;
     background-color: #ffffff;
-    background-image: url(afbeeldingen/600rrul.png);
+    background-image: url(afbeeldingen/hondalogo.jpg);
+    background-position: center;
     overflow: hidden;
     border: solid red;
     /*border-bottom-left-radius: 40px;
@@ -199,7 +200,7 @@ nav li a.active {
 }
 
 .basicborder {
-  border: solid red 2.5px;
+  border: solid red 3px;
 }
 
 .civicstockeg6 {
@@ -215,4 +216,8 @@ nav li a.active {
 
 .secs {
   width: 700px;
+}
+
+.imgshadowright {
+  box-shadow: 5px 5px 1px 1px rgb(53, 13, 13);
 }
