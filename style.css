@@ -11,7 +11,7 @@ html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: #27262a;    /* achtergrondkleur lichtgrijs */
   color: rgb(231, 227, 227); 
-  background-image: url("afbeeldingen/generations.jpeg"); 
+  background-image: url("afbeeldingen/hondawp.jpeg"); 
   background-repeat: no-repeat;  
   background-size: cover;   
   background-position: center; 
@@ -180,16 +180,16 @@ nav li a.active {
   margin-bottom: 10px;
 }
   
-.div1 {
+.div1, .div3, .div5, .div7, .div9{
   width: 700px;
-  /*border: solid yellow 5px;*/
+  border: solid yellow 5px;
   float: left;
   height: auto;
 }
 
-.div2 {
+.div2, .div4, .div6, .div8, .div10{
   width: 700px;
-  /*border: solid green 5px;*/
+  border: solid green 5px;
   float: right;
 }
 .text2 {
@@ -201,8 +201,16 @@ nav li a.active {
 }
 
 .civicstockeg6 {
-  width: 250px;
+  width: 450px;
   margin: auto;
   margin-top: 5px;
   margin-right: 5px;
+}
+
+.specialdiv {
+  width: 700px;
+}
+
+.secs {
+  width: 700px;
 }
