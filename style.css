@@ -9,9 +9,9 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #ca2d2d;    /* achtergrondkleur lichtgrijs */
+  background-color: #ff6e6e;    /* achtergrondkleur lichtgrijs */
   color: rgb(231, 227, 227); 
-  background-image: url("afbeeldingen/hondawp3.jpg"); 
+  background-image: url("afbeeldingen/hondawp4.jpg"); 
   background-repeat: no-repeat;  
   background-size: cover;   
   background-position: relative; 
