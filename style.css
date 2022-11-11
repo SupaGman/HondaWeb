@@ -105,7 +105,7 @@ nav ul {
     border-radius: 40px;
     width: 380px;
     height: auto;
-    box-shadow: 10px 10px 5px 7px rgb(100, 0, 0);
+    box-shadow: 10px 10px 5px 7px rgb(50, 0, 35);
 }
 
 nav ul li {
@@ -150,10 +150,11 @@ nav li a.active {
   margin: auto;
   float: right;
   margin-right: 10px;
+  margin-bottom: 20px;
   /*border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;*/
   border-radius: 40px;
-  box-shadow: 15px 15px 7px 10px rgb(100, 0, 0);
+  box-shadow: 15px 15px 7px 7px rgb(50, 0, 35);
 }
 
 .banna {
@@ -208,6 +209,7 @@ nav li a.active {
   margin: auto;
   margin-top: 5px;
   margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .specialdiv {
@@ -219,5 +221,15 @@ nav li a.active {
 }
 
 .imgshadowright {
-  box-shadow: 5px 5px 1px 1px rgb(53, 13, 13);
+  box-shadow: 5px 5px 3px 3px rgb(40, 0, 35);
+}
+.imgshadowleft {
+  box-shadow: 5px 5px 3px 3px rgb(40, 0, 35);
+}
+.motogp {
+  text-decoration: underline orange;
+}
+
+.f1 {
+  text-decoration: underline rgb(0, 0, 172);
 }
