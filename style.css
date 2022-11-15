@@ -9,9 +9,9 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #ff6e6e;    /* achtergrondkleur lichtgrijs */
+  background-color: #9f4242;    /* achtergrondkleur lichtgrijs */
   color: rgb(231, 227, 227); 
-  background-image: url("afbeeldingen/hondawp4.jpg"); 
+  background-image: url("afbeeldingen/hondawp.jpeg"); 
   background-repeat: repeat;  
   background-size: cover;   
   background-position: center; 
@@ -105,7 +105,7 @@ nav ul {
     border-radius: 40px;
     width: 380px;
     height: auto;
-    box-shadow: 10px 10px 20px 7px rgb(50, 0, 35);
+    box-shadow: 10px 10px 20px 7px rgb(50, 0, 0);
 }
 
 nav ul li {
@@ -154,7 +154,7 @@ nav li a.active {
   /*border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;*/
   border-radius: 40px;
-  box-shadow: 15px 15px 20px 7px rgb(50, 0, 35);
+  box-shadow: 15px 15px 20px 7px rgb(50, 0, 0);
 }
 
 .banna {
@@ -204,7 +204,7 @@ nav li a.active {
   border: solid red 3px;
   margin-right: 20px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 20px 7px rgb(50, 0, 35);
+  box-shadow: 10px 10px 20px 7px rgb(50, 0, 0);
 }
 
 .civicstockeg6 {
@@ -224,10 +224,10 @@ nav li a.active {
 }
 
 .imgshadowright {
-  box-shadow: 5px 5px 20px 3px rgb(40, 0, 35);
+  box-shadow: 5px 5px 20px 3px rgb(40, 0, 0);
 }
 .imgshadowleft {
-  box-shadow: 5px 5px 20px 3px rgb(40, 0, 35);
+  box-shadow: 5px 5px 20px 3px rgb(40, 0, 0);
 }
 .motogp {
   text-decoration: underline overline orange;
