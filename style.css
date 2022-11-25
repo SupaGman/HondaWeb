@@ -28,7 +28,7 @@ body * {                          /* geldt voor alles in body */
 
 .page {
   width: 1500px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto; 
+  margin: 10px auto;
   border: dashed red 5px; 
   border-radius: 75px;            /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -186,14 +186,14 @@ nav li a.active {
   
 .div1, .div3, .div5, .div7, .div9{
   width: 700px;
-  border: solid yellow 5px;
+ /* border: solid yellow 5px;*/
   float: left;
   height: auto;
 }
 
 .div2, .div4, .div6, .div8, .div10{
   width: 700px;
-  border: solid green 5px;
+/*  border: solid green 5px;*/
   float: right;
 }
 .text2 {
@@ -203,8 +203,10 @@ nav li a.active {
 .basicborder {
   border: solid red 3px;
   margin-right: 20px;
+  margin-left: 10px;
   margin-bottom: 20px;
   box-shadow: 10px 10px 20px 7px rgb(50, 0, 0);
+  border-radius: 5px;
 }
 
 .civicstockeg6 {
@@ -217,6 +219,7 @@ nav li a.active {
 
 .specialdiv {
   width: 700px;
+  margin-right: 10px;
 }
 
 .secs {
