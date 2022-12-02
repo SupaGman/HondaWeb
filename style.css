@@ -9,7 +9,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #9f4242;    /* achtergrondkleur lichtgrijs */
+  background-color: #844343;    /* achtergrondkleur lichtgrijs */
   color: rgb(231, 227, 227); 
   background-image: url("afbeeldingen/hondawp.jpeg"); 
   background-repeat: repeat;  
@@ -135,7 +135,7 @@ animation-name: mymove;
 
 }
 /*@keyframes mymove {
-  rom {left: 0px;}
+  from {left: 0px;}
   to {left: 10px;}
 }*/
 
@@ -239,4 +239,12 @@ nav li a.active {
 
 .f1 {
   text-decoration:  overline underline rgb(0, 0, 172);
+}
+
+.specs {
+  margin-bottom: 10px;
+}
+
+.modellen {
+  width: 700px;
 }
