@@ -185,7 +185,7 @@ nav li a.active {
   margin-bottom: 10px;
 }
   
-.div1, .div3, .div5, .div7, .div9{
+.div1, .div3, .div5, .div7, .div9, .div11{
   width: 700px;
  /* border: solid yellow 5px;*/
   float: left;
@@ -259,4 +259,7 @@ nav li a.active {
 .hrcteman {
   margin-left: 140px;
   margin-bottom: 10px;
+}
+.margret {
+  margin-left: 15 px ;
 }
