@@ -171,6 +171,7 @@ nav li a.active {
 .text1 {
   float: left;
   margin-right: 10px;
+  margin-left: 10px;
 }
 .floatrechts {
   float: right;
@@ -181,7 +182,7 @@ nav li a.active {
 
 .floatlinks {
   float: left;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -272,4 +273,8 @@ nav li a.active {
 }
 .texton {
   float: left;
+}
+
+#repross {
+  margin-left: 0px;
 }
