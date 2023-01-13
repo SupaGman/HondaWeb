@@ -16,7 +16,7 @@ html, body {                      /* geldt voor html en body */
   background-size: 100% 100%;  
   background-attachment: fixed; 
   background-position: fixed center; 
-  background-blend-mode: darken;      /* tekstkleur donkergrijs */
+  background-blend-mode: darken;    /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -31,7 +31,7 @@ body * {                          /* geldt voor alles in body */
   width: 1500px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;
   border: dashed red 5px; 
-  border-radius: 75px;            /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  border-radius: 75px;          /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -262,9 +262,7 @@ nav li a.active {
   margin-left: 140px;
   margin-bottom: 10px;
 }
-.margret {
-  margin-left: 15 px ;
-}
+
 .mclh {
   border-radius: 3px;
   float: right;
